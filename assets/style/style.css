@@ -1,1 +1,16 @@
-/* BASIC STYLES HERE */
+.fit {
+  background-size: cover;
+}
+
+.hide {
+  display: none;
+}
+
+.undo:hover+.hide {
+  display: block;
+  color: red
+}
+
+.cursive {
+  font-family: 'Butterfly Kids', cursive;
+}
